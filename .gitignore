@@ -1,0 +1,49 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+dependency-reduced-pom.xml
+
+# Gradle files (if applicable)
+.gradle/
+build/
+
+# Spring Boot
+spring-boot-loader/
+spring-boot-loader-cache/
+spring-boot-starter-*.jar
+spring-boot-starter-test-*.jar
+
+# Eclipse-specific files
+.metadata/
+bin/
+*.log
+*.tmp
+
+# Local configuration files
+application.properties
+application.yml
+
+# IDE-specific files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
