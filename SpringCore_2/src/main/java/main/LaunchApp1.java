@@ -10,12 +10,13 @@ public class LaunchApp1 {
 		
 //		ApplicationContext app = new ClassPathXmlApplicationContext("applicationconfig.xml"); 
 		
-		 DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
-	        
-	     // Create an XmlBeanDefinitionReader
-	     XmlBeanDefinitionReader xmlReader = new XmlBeanDefinitionReader(beanFactory);
+		DefaultListableBeanFactory bean = new DefaultListableBeanFactory();
 	     
-	     xmlReader.loadBeanDefinitions("applicationconfig.xml");
+	    XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(bean);
+	     
+	    reader.loadBeanDefinitions("applicationconfig.xml");
+	    
+	    Amaz a = bean.getBean(Amaz.class);
 		
 		boolean status = a.buyTheCourse(444.4);
 		
