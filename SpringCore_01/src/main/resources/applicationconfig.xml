@@ -7,7 +7,10 @@
     <bean id="java" class="services.Java"/>
     <bean id="sb" class="services.SpringBoot"/> 
     <bean id="az" class="main.Amaz">
-        <property ref="java" name="icourse"/>
+    <!-- <property ref="java" name="icourse"/> --> 
+    
+    <constructor-arg ref="sb" name = "icourse"></constructor-arg>
+       
     </bean>
 
 </beans>
