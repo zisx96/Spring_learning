@@ -7,17 +7,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class Telusko 
 {
-//	@Autowired
-//	@Qualifier("java")
+	@Autowired
+	@Qualifier("java")
 	private ICourse course;
 
-//	@Autowired
-//	public Telusko(@Qualifier("springBoot")ICourse course) 
-//	{
-//		super();
-//		System.out.println("Constructor Injection");
-//		this.course = course;
-//	}
+	@Autowired
+	public Telusko(@Qualifier("springBoot")ICourse course) 
+	{
+		super();
+		System.out.println("Constructor Injection");
+		this.course = course;
+	}
 	
 	public Telusko() 
 	{
@@ -26,7 +26,7 @@ public class Telusko
 	}
 
 	@Autowired
-	@Qualifier("springBoot")
+//	@Qualifier("springBoot")
 	public void setCourse(ICourse course) 
 	{
 		System.out.println("Setter Injection");

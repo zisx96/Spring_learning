@@ -1,0 +1,32 @@
+package com.SpringLearning.sevices;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class Greeting {
+	
+	@Autowired
+	private LocalTime date;
+	
+	public Greeting() {
+		
+		System.out.println("Greetings bean created");
+	}
+	
+	public String generatedGreeting() {
+		
+		int hour = date.getHour();
+		
+		if(hour < 12)
+			return "good morinig" + name;
+		else if(hour < 16)
+			return "good evening" + name;
+		else if(hour < 20)
+			return ""good night" + name;
+	}
+	
+}

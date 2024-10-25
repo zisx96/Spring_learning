@@ -1,0 +1,7 @@
+package service;
+
+public class Employee {
+	
+	private Integer empId;
+	private String name;
+}

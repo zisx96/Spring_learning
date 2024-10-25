@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.SpringLearning.config.JavaConfig"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.SpringLearning.sevices.Greeting"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+</qualifiedTypeNameHistroy>

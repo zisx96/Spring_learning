@@ -1,10 +1,10 @@
 package com.telusko.service;
 
-import org.springframework.context.annotation.Primary;
+
 import org.springframework.stereotype.Service;
 
 @Service
-@Primary
+// @Primary
 public class Java implements ICourse {
 
 	public Java()

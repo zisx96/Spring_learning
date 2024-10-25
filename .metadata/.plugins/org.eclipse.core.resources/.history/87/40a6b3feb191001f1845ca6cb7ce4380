@@ -1,0 +1,20 @@
+package com.SpringLearning.config;
+
+import java.time.LocalDateTime;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackage={"com.SpringLearning"})
+public class JavaConfig {
+	
+	public JavaConfig() {
+		
+		System.out.println("java config bean created");
+	}
+	
+	public LocalDateTime createTimeObj() {
+		
+		return LocalDateTime.now();
+	}
+}

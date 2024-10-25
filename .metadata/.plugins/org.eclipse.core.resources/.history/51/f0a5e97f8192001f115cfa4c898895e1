@@ -1,0 +1,9 @@
+package com.SpringLearning.SpringBoot_01.config;
+
+public class Config {
+	
+	public Config() {
+		
+		System.out.println("constructor of java");
+	}
+}

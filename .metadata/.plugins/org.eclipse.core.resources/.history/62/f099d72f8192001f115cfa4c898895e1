@@ -1,0 +1,17 @@
+package com.SpringLearning.SpringBoot_01.config;
+
+public class Greetings implements IGreeting {
+	
+	public Greetings() {
+		
+		System.out.println("constructor of Greetings");
+	}
+	
+	@Override
+	public String greetingWish(String name) {
+		
+		
+		return name;
+		
+	}
+}

@@ -1,0 +1,16 @@
+package service;
+
+public class Department {
+	
+	private Integer deptNo;
+	private String dpName;
+	
+	public Department(Integer deptNo, String dpName) {
+		super();
+		this.deptNo = deptNo;
+		this.dpName = dpName;
+	}
+	
+	
+	
+}

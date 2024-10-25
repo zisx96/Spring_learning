@@ -1,0 +1,23 @@
+package com.SpringLearning.SpringBoot_01.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Service
+public class Greetings implements IGreeting {
+	
+	public Greetings() {
+		
+		System.out.println("constructor of Greetings");
+	}
+	
+	@Autowired
+	private LocalTime = time;
+	
+	@Override
+	public String greetingWish(String name) {
+		
+		int hour = time.
+		return name;
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.SpringLearning.sevices;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Greeting {
+	
+	private LocalDate date;
+	
+	public Greeting() {
+		
+		System.out.println("Greetings bean created");
+	}
+	
+}

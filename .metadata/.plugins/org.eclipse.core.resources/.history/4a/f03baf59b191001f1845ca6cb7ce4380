@@ -1,0 +1,13 @@
+package com.SpringLearning.sevices;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class Greeting {
+	
+	public Greeting() {
+		
+		System.out.println("Greetings bean created");
+	}
+	
+}
