@@ -1,0 +1,19 @@
+package com.SpringL.dao;
+
+import java.util.List;
+
+import com.SpringL.model.Employee;
+
+public class EmployeeDaoImp implements IEmployee {
+
+	@Override
+	public List<Employee> getEmployeesInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+	}
+
+}

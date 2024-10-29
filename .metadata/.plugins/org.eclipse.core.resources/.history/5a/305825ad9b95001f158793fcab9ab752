@@ -1,0 +1,36 @@
+package com.SpringL.dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.SpringL.model.Employee;
+
+@Repository("dao")
+public class EmployeeDaoImp implements IEmployee {
+	
+	@Autowired
+	private DataSource dataSource;
+	
+	@Override
+	public List<Employee> getEmployeesInfo() {
+
+		try {
+			
+			Connection Connection = dataSource.getConnection();
+		
+		}
+		catch(Exception e){
+			
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+}
+
+

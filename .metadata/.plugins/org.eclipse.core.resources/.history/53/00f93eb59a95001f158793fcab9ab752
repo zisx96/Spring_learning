@@ -1,0 +1,5 @@
+spring.application.name=SpringJDBC
+
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=

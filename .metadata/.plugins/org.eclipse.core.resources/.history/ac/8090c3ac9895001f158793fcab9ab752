@@ -1,0 +1,6 @@
+package com.SpringL.dao;
+
+public interface IEmployee {
+	
+	List<Employee> getEmployeesInfo();
+}

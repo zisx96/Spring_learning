@@ -1,0 +1,22 @@
+package com.SpringL;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.SpringL.dao.EmployeeDaoImp;
+
+@SpringBootApplication
+public class SpringJdbcApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext container = SpringApplication.run(SpringJdbcApplication.class, args);
+		
+		EmployeeDaoImp dao = container.getBean(EmployeeDaoImp.class);
+		
+		List<Employee> list = dao.getEmployeesInfo();
+	
+	
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.SpringL.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository("dao")
+public class EmployeeDao {
+
+	private JDBCTemplate jdbcTemp;
+	
+}

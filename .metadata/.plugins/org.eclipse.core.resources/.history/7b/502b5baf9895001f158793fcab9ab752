@@ -1,0 +1,10 @@
+package com.SpringL.dao;
+
+import java.util.List;
+
+import com.SpringL.model.Employee;
+
+public interface IEmployee {
+	
+	List<Employee> getEmployeesInfo();
+}
