@@ -61,3 +61,5 @@ build/
 # Spring Boot specific
 .spring-boot-devtools.properties
 spring-boot-devtools
+
+.metadata/
