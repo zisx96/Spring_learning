@@ -7,5 +7,4 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.catalina.startup.Tomcat$SimpleRealm"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="org.apache.tomcat.embed.core"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SpringH2"/>
-    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>
