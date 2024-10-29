@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.SpringLearning.sevices.Greeting"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="com.SpringL.dao.EmployeeDaoImp"/>
+    <fullyQualifiedTypeName name="com.SpringL.dao.EmployeeDao"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,0 @@
-package com.SpringL.dao;
-
-@Repository("dao")
-public class EmployeeDao {
-
-}

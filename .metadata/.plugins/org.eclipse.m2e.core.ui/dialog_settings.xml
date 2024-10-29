@@ -72,6 +72,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\work\Spring framework\SpringDataJdbc"/>
+			<item value="C:\work\Spring framework\SpringH2"/>
+			<item value="C:\work\Spring framework\SpringJDBC"/>
 			<item value="C:\work\Spring framework"/>
 		</list>
 		<list key="projectNameTemplate">
