@@ -72,7 +72,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\work\Spring framework\SpringDataJpa1"/>
 			<item value="C:\work\Spring framework\SpringDataJdbc"/>
+			<item value="C:\work\Spring framework\SpringJdbc"/>
 			<item value="C:\work\Spring framework\SpringH2"/>
 			<item value="C:\work\Spring framework\SpringJDBC"/>
 			<item value="C:\work\Spring framework"/>

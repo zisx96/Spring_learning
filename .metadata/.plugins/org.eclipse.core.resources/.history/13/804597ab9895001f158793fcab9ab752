@@ -1,6 +1,0 @@
-package com.SpringL.dao;
-
-public interface IEmployee {
-	
-	
-}
