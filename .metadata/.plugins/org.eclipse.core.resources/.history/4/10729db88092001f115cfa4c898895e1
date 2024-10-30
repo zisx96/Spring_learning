@@ -1,6 +1,0 @@
-package com.SpringLearning.SpringBoot_01.config;
-
-public interface IGreeting {
-	
-	public void greetingWish(String name);
-}

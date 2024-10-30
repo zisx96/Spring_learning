@@ -1,5 +1,0 @@
-package com.SpringLearning.SpringBoot_01.config;
-
-public interface IGreeting {
-
-}

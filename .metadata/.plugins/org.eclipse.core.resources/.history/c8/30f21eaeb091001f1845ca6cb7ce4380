@@ -1,8 +1,0 @@
-package com.SpringLearning.config;
-
-@Configuration
-public class JavaConfig {
-	
-	
-	
-}

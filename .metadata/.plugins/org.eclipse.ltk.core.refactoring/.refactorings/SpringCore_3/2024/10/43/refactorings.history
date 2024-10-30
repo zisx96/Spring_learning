@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;applicationconfig.xml&apos; to &apos;resources&apos;" description="Move &apos;applicationconfig.xml&apos; to &apos;resources&apos;" destination="src/main/resources" element1="applicationconfig.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1729649917513" updateReferences="true"/>
-</session>
