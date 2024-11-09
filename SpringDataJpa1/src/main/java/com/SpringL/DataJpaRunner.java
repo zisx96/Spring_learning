@@ -16,7 +16,7 @@ public class DataJpaRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		repo.save(new Student(2, "Karan", "Mumbai"));
+		repo.save(new Student(3, "Ramesh", "Pune"));
 		
 		System.out.println(repo.getClass().getName());
 
