@@ -63,3 +63,77 @@ build/
 spring-boot-devtools
 
 .metadata/
+
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ IDEA specific files (if used)
+.idea/
+*.iml
+*.iws
+
+# Gradle specific files
+.gradle/
+build/
+.gradle/caches/
+.gradle/wrapper/
+gradle-app.setting
+gradle.properties
+gradle-wrapper.properties
+
+# Spring Boot specific files
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+
+# Generated files
+bin/
+out/
+target/
+
+# Application properties (if sensitive information is included)
+application*.yml
+application*.yaml
+application*.properties
+
+# Database files
+*.db
+
+# Test outputs
+test-output/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# JetBrains project files
+*.idea/
+*.iws
+*.iml
+.idea/
