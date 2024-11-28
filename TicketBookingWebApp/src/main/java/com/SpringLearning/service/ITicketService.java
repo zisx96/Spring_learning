@@ -6,6 +6,6 @@ import com.SpringLearning.model.Ticket;
 public interface ITicketService {
 	
 	public Integer registerPassenger(Passenger passenger);
-	public Ticket getTicketInfo(Integer id);
+	public Ticket getTicketInfo(Integer ticketNumber);
 	
 }

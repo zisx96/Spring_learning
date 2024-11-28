@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Get Ticket Information</title>
+</head>
+<body>
+    <h1>Fetch Ticket Information</h1>
+
+    <!-- Ticket Number Input Form -->
+    <form th:action="@{/get-ticket}">
+        <div>
+            <label for="ticketNumber">Ticket Number:</label>
+            <input type="number" id="ticketNumber" name="ticketNumber" placeholder="Enter Ticket Number" required />
+        </div>
+        <button type="submit">Get Ticket Info</button>
+    </form>
+
+</body>
+</html>
